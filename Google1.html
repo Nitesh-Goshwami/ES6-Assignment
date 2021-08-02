@@ -6,15 +6,31 @@
       #forms {
         display: flex;
         align-items: center;
+        width: 300px;
+        margin-left: 400px;
       }
 
       form {
-        width: 10%;
+        width: 30%;
       }
 
       #forms div {
         flex: 1;
         padding-left: 20%;
+      }
+      #Register{
+        height: 350px;
+        background-color: grey;
+        padding: 50px;
+        margin-right: 200px; 
+        border-radius: 10%;
+      }
+      #Login{
+        height: 150px;
+        background-color: grey;
+        padding: 50px;
+        margin-right: 20px; 
+        border-radius: 10%;
       }
     </style>
   </head>
@@ -25,7 +41,6 @@
     <div id="forms">
       <div id="Register">
         <h1>Register</h1>
-
         <form onsubmit="Register(event)">
           Name: <input type="text" id="inp1" /> Email:
           <input type="text" id="inp2" /> Password:
